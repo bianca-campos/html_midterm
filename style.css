@@ -1,7 +1,7 @@
 /*  Project Midterm
 	Names: 	Bianca
 			Jintak
-			Juan
+			Javier
 			Nagisa */
 			/*for whole page*/
 body {
@@ -25,6 +25,8 @@ nav {
 	display: inline-block;
 	float: left;
 }
+
+#header1{
 
 .logo a {
 	display: inline-block;
@@ -70,6 +72,7 @@ ul li a {
 				text-align: left;
 			}*/
 
+#header3{
 
 #header3{
 	color:#3F3F3F;
@@ -135,4 +138,104 @@ footer {
   padding: 10px;
   height: 50px;
   margin-top: 140px;
+}
+}
+
+
+/*CSS Brazil Page*/
+
+
+.brheader{
+	background-color: #FFE11F;
+	color: #16B83E;
+    padding-right:20px;
+    padding-left:20px;
+}
+
+#brcontainer{
+	display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+#container:before, #brmiddle, #brright {
+    display: table-cell;
+}
+
+#brmiddle{
+    width: 50%;
+    text-align: center;
+    font-size: 3em;
+    font-style: italic;
+    font-weight: bold;
+}
+#brright{
+    float: right;
+}
+
+.brbody{
+	background-image: url("br_back.jpeg");
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F0F0F0;
+	font-family: Arial;
+	font-size: 1em;
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+.brnav{
+	background-color: #1651B8;
+	padding: 5px;
+	margin-top: 2px;
+	border-color: green;
+	border-style: solid;
+
+}
+
+nav li a{
+	color: #FFE11F;
+}
+
+.brli{
+	display: inline;
+	font-size: 1.3em;
+	font-variant: small-caps;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+
+.brsection{
+	background-color: #BFBFBF;
+	margin-top: 10px;
+	padding: 3px;
+}
+
+#brarticle{
+	background-color: white;
+	margin-top: 15px;
+	padding: 10px 15px;
+}
+
+#brmain{
+	width: 100%;
+}
+
+#brdiv1{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	float: left;
+}
+
+#brdiv2{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	float: right;
+}
+
+footer div a {
+	padding: 6px;
 }
