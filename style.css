@@ -4,97 +4,119 @@
 			Javier
 			Nagisa */
 			/*for whole page*/
-/*body {
-	font-family: "Times New Roman", Georgia, Serif;
-	margin: 0;
-	padding: 0;
-	line-height: 1.5;
+
+
+/*Main page CSS*/
+
+body {
+  font-family: "Times New Roman", Georgia, Serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
 }
 
-#main-top,#country {
-	border-bottom: 1px solid black;
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
 }
 
-/*nav bar*/
-/*nav {
-	background-color: lightblue;
-	height: 80px;
+/*main page Navigation*/
+#main-page-nav {
+  background-color: #d7d4db;
+  height: 80px;
 }
 
-.logo {
-	display: inline-block;
-	float: left;
+#main-page-nav ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  float: right;
 }
 
-#header1{
-
-.logo a {
-	display: inline-block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 30px;
-	letter-spacing: 8px;
-	font-weight: 600;
-}
-
-ul {
-	list-style-type: none;
-	margin:0;
-	padding: 0;
-	float: right;
-}
-
-ul li {
+#main-page-nav li {
     display: inline-block;
     margin-left: 30px;
     padding-top: 10px;
 }
 
-ul li a {
+#main-page-nav li a {
     display: inline-block;
     color: white;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
-    letter-spacing: 4px;
-    font-weight: bold;*/
-/*}*/
-
-			/*main-top image area*/
-
-			/*#header1{
-				color:#5F4B8B;
-				font-size: 2em;
-				margin-left: 5px;
-				font-style: italic;
-				text-align: left;
-			}*/
-
-/*#header3{
-
-#header3{
-	color:#3F3F3F;
-	font-size: 1.5em;
-	margin-left: 5px;
-	text-align: left;
-	font-weight: bold;
-}*/
-
-			/*Country jump area*/
-
-/*#country {
-	height: 300px;
+    letter-spacing: 2px;
+    font-weight: bold;
 }
-*/
 
+#main-page-nav li a:hover {
+  color: #f6e6f7;
+}
 
+/* main Top image*/
+#main-image {
+  background: url("img/main.jpg");
+  background-size: cover;
+  background-position: 10% 40%;
+  border-bottom: 30px solid #d7d4db;
+  width: 100%;
+  height: 500px;
+}
 
+/*Welcome page*/
+#welcome-page,
+#our-country {
+  border-bottom: 1px solid #d7d4db;
+  padding-bottom: 30px;
+}
 
-/*Contact section*/
-/*#contact h1,p {
+#welcome-page h1 {
+	font-size: 2em;
 	text-align: center;
+}
+
+/*Country Jump page*/
+#our-country .container {
+	padding-left: 150px;
+}
+
+#our-country {
+  padding-bottom: 150px;
+}
+
+#our-country h1 {
+  text-align: center;
+}
+
+#our-country img {
+  border-radius: 30px;
+  max-width: 200px;
+  height: auto;
+  opacity: 0.75;
+}
+
+#our-country .box {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  text-align: center;
+}
+
+/*layout clearfix*/
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*========Contacf Forms======*/
+#contact h1,p {
+  text-align: center;
+}
+
+#contact {
+  padding-bottom: 160px;
 }
 
 form {
@@ -102,13 +124,13 @@ form {
    margin: 0 auto;
  }
 
-input,textarea {
-   padding: 1em;
-   border-radius: 8px;
-   border: 1px solid #cfcfd1;
-   /*display: block;*/
-   /*width: 100%;
-   margin-top: 1em;
+ input,textarea {
+     padding: 1em;
+     border-radius: 8px;
+     border: 1px solid #cfcfd1;
+     /*display: block;*/
+     width: 100%;
+     margin-top: 1em;
  }
 
 textarea {
@@ -122,25 +144,40 @@ textarea {
 button {
   padding: 19px 39px 18px 39px;
   color: #FFF;
-  background-color: #aceef9;
+  background-color: #c46287;
   font-size: 18px;
   text-align: center;
   font-style: normal;
   border-radius: 4px;
-  border-bottom: 4px solid #9bd2db;
+  border-bottom: 4px solid #7f3f57;
   margin: 10px 0;
 }
 
-/*footer*/
-/*footer {
-  text-align: center;
-  background-color: #e0e2e5;
-  padding: 10px;
-  height: 50px;
-  margin-top: 140px;
-}*/
-/*/
-/*CSS Japan page*/
+/*========footer area=========*/
+html,body{
+     height: 100%;
+}
+#wrap {
+     width: 100%;
+     position: relative;
+     min-height: 100%;
+}
+
+.main-page-footer {
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    background-color: #d7d4db;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+
+/*======END OF MAIN PAGE CSS========*/
+
+
+/*========CSS Japan page===========*/
 
 body {
   font-family: "Times New Roman", Georgia, Serif;
@@ -205,7 +242,7 @@ nav {
 }
 
 #main-top {
-  background: url("img/main.jpg");
+  background: url("images/main.jpg");
   background-size: cover;
   background-position: 10% 40%;
   border-bottom: 30px solid #c1223a;
@@ -243,6 +280,9 @@ nav {
 }
 
 /*=====Food area==========*/
+#food .container {
+	padding-left: 90px;
+}
 
 #food {
   padding-bottom: 150px;
