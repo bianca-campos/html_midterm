@@ -4,7 +4,7 @@
 			Javier
 			Nagisa */
 			/*for whole page*/
-body {
+/*body {
 	font-family: "Times New Roman", Georgia, Serif;
 	margin: 0;
 	padding: 0;
@@ -16,7 +16,7 @@ body {
 }
 
 /*nav bar*/
-nav {
+/*nav {
 	background-color: lightblue;
 	height: 80px;
 }
@@ -59,8 +59,8 @@ ul li a {
     text-decoration: none;
     font-size: 20px;
     letter-spacing: 4px;
-    font-weight: bold;
-}
+    font-weight: bold;*/
+/*}*/
 
 			/*main-top image area*/
 
@@ -72,7 +72,7 @@ ul li a {
 				text-align: left;
 			}*/
 
-#header3{
+/*#header3{
 
 #header3{
 	color:#3F3F3F;
@@ -80,20 +80,20 @@ ul li a {
 	margin-left: 5px;
 	text-align: left;
 	font-weight: bold;
-}
+}*/
 
 			/*Country jump area*/
 
-#country {
+/*#country {
 	height: 300px;
 }
-
+*/
 
 
 
 
 /*Contact section*/
-#contact h1,p {
+/*#contact h1,p {
 	text-align: center;
 }
 
@@ -107,7 +107,7 @@ input,textarea {
    border-radius: 8px;
    border: 1px solid #cfcfd1;
    /*display: block;*/
-   width: 100%;
+   /*width: 100%;
    margin-top: 1em;
  }
 
@@ -132,14 +132,170 @@ button {
 }
 
 /*footer*/
-footer {
+/*footer {
   text-align: center;
   background-color: #e0e2e5;
   padding: 10px;
   height: 50px;
   margin-top: 140px;
+}*/
+/*/
+/*CSS Japan page*/
+
+body {
+  font-family: "Times New Roman", Georgia, Serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
 }
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
 }
+
+/*====Navigation bar=======*/
+nav {
+  background-color: #c1223a;
+  height: 80px;
+}
+
+.logo {
+  display: inline-block;
+  float: left;
+}
+
+.logo a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  letter-spacing: 5px;
+  font-weight: 600;
+}
+
+#main-nav {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  float: right;
+}
+
+#main-nav li {
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+#main-nav li a {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+#main-nav li a:hover {
+  color: #f6e6f7;
+}
+
+#main-top {
+  background: url("img/main.jpg");
+  background-size: cover;
+  background-position: 10% 40%;
+  border-bottom: 30px solid #c1223a;
+  width: 100%;
+  height: 500px;
+}
+
+/*=====About area=======*/
+#about .container,
+#culture .container{
+  border-bottom: 1px solid #c1223a;
+  padding-bottom: 50px;
+}
+
+#about h1 {
+  text-align: center;
+  padding: 50px;
+  font-size: 3em;
+  letter-spacing: 2px;
+}
+
+#left {
+  float: left;
+  width: 40%;
+  padding-right: 10px;
+}
+
+
+/*=======Culture area=========*/
+
+#right {
+  float: right;
+  width: 40%;
+  padding-left: 10px;
+}
+
+/*=====Food area==========*/
+
+#food {
+  padding-bottom: 150px;
+}
+
+#food h1 {
+  text-align: center;
+}
+
+
+#food img {
+  border-radius: 30px;
+  max-width: 300px;
+  height: auto;
+  opacity: 0.75;
+}
+
+#food .box {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+}
+
+
+/*layout clearfix*/
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/*========footer area=========*/
+html,body{
+     height: 100%;
+}
+#wrap {
+     width: 100%;
+     position: relative;
+     min-height: 100%;
+}
+
+footer {
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    background-color: #c1223a;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
 
 
 /*CSS Brazil Page*/
