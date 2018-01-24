@@ -23,7 +23,7 @@ body {
 
 /*main page Navigation*/
 #main-page-nav {
-  background-color: #d7d4db;
+  background-color: #7F7F7F;
   height: 80px;
 }
 
@@ -56,10 +56,10 @@ body {
 
 /* main Top image*/
 #main-image {
-  background: url("img/main.jpg");
+  background: url("../project_midterm/images/global_main.png");
   background-size: cover;
   background-position: 10% 40%;
-  border-bottom: 30px solid #d7d4db;
+  border-bottom: 30px solid #7F7F7F;
   width: 100%;
   height: 500px;
 }
@@ -67,7 +67,7 @@ body {
 /*Welcome page*/
 #welcome-page,
 #our-country {
-  border-bottom: 1px solid #d7d4db;
+  border-bottom: 1px solid #7F7F7F;
   padding-bottom: 30px;
 }
 
@@ -75,6 +75,25 @@ body {
 	font-size: 2em;
 	text-align: center;
 }
+
+/*Table page*/
+.main_table, th, td{
+    font-size:  1.1em;
+    border: 1px solid black;
+
+}
+
+th{
+  padding: 10px;
+  text-align: center;
+}
+
+td{
+  padding: 10px;
+  text-align: center;
+}
+
+/*End Table page*/
 
 /*Country Jump page*/
 #our-country .container {
@@ -144,12 +163,12 @@ textarea {
 button {
   padding: 19px 39px 18px 39px;
   color: #FFF;
-  background-color: #c46287;
+  background-color: #7F7F7F;
   font-size: 18px;
   text-align: center;
   font-style: normal;
   border-radius: 4px;
-  border-bottom: 4px solid #7f3f57;
+  border-bottom: 4px solid #E7E6E6;
   margin: 10px 0;
 }
 
@@ -167,7 +186,7 @@ html,body{
     height: 60px;
     position: fixed;
     bottom: 0;
-    background-color: #d7d4db;
+    background-color: #7F7F7F;
     color: #fff;
     text-align: center;
     width: 100%;
@@ -175,6 +194,9 @@ html,body{
 
 
 /*======END OF MAIN PAGE CSS========*/
+
+
+
 
 
 /*========CSS Japan page===========*/
