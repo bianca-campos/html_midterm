@@ -23,7 +23,7 @@ body {
 
 /*main page Navigation*/
 #main-page-nav {
-  background-color: #7F7F7F;
+  background-color: #3d3d3d;
   height: 80px;
 }
 
@@ -56,10 +56,10 @@ body {
 
 /* main Top image*/
 #main-image {
-  background: url("../project_midterm/images/global_main.png");
+  background: url("./images/main-map.jpg");
   background-size: cover;
   background-position: 10% 40%;
-  border-bottom: 30px solid #7F7F7F;
+  border-bottom: 30px solid #3d3d3d;
   width: 100%;
   height: 500px;
 }
@@ -170,7 +170,7 @@ textarea {
 button {
   padding: 19px 39px 18px 39px;
   color: #FFF;
-  background-color: #7F7F7F;
+  background-color: #3d3d3d;
   font-size: 18px;
   text-align: center;
   font-style: normal;
@@ -193,7 +193,7 @@ html,body{
     height: 60px;
     position: fixed;
     bottom: 0;
-    background-color: #7F7F7F;
+    background-color: #3d3d3d;
     color: #fff;
     text-align: center;
     width: 100%;
@@ -237,7 +237,7 @@ footer p {
 
 /*====Navigation bar=======*/
 nav {
-  background-color: #c1223a;
+  background-color: #3d3d3d;
   height: 80px;
 }
 
@@ -288,7 +288,7 @@ nav {
   background: url("images/main.jpg");
   background-size: cover;
   background-position: 10% 40%;
-  border-bottom: 30px solid #c1223a;
+  border-bottom: 30px solid #3d3d3d;
   width: 100%;
   height: 500px;
 }
@@ -373,7 +373,7 @@ footer {
     height: 60px;
     position: fixed;
     bottom: 0;
-    background-color: #c1223a;
+    background-color: #3d3d3d;
     width: 100%;
 }
 
