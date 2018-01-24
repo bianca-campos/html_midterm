@@ -118,7 +118,7 @@ td{
 #our-country img {
   border-radius: 30px;
   max-width: 200px;
-  height: auto;
+  height: 150px;
   opacity: 0.75;
 }
 
@@ -557,9 +557,10 @@ footer div a {
   #k-our-country img {
     border-radius: 30px;
     max-width: 200px;
-    height: auto;
+    height: 150px;
     opacity: 0.75;
   }
+
 
   #k-our-country .k-box {
     float: left;
