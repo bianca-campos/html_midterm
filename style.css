@@ -23,7 +23,7 @@ body {
 
 /*main page Navigation*/
 #main-page-nav {
-  background-color: #d7d4db;
+  background-color: #7F7F7F;
   height: 80px;
 }
 
@@ -56,10 +56,10 @@ body {
 
 /* main Top image*/
 #main-image {
-  background: url("img/main.jpg");
+  background: url("../project_midterm/images/global_main.png");
   background-size: cover;
   background-position: 10% 40%;
-  border-bottom: 30px solid #d7d4db;
+  border-bottom: 30px solid #7F7F7F;
   width: 100%;
   height: 500px;
 }
@@ -67,7 +67,7 @@ body {
 /*Welcome page*/
 #welcome-page,
 #our-country {
-  border-bottom: 1px solid #d7d4db;
+  border-bottom: 1px solid #7F7F7F;
   padding-bottom: 30px;
 }
 
@@ -75,6 +75,32 @@ body {
 	font-size: 2em;
 	text-align: center;
 }
+
+/*Table page*/
+
+.main_table{
+    margin-right: auto; 
+    margin-left: auto;
+}
+.main_table, th, td{
+    font-size:  1.1em;
+    border: 1px solid black;
+
+}
+
+th{
+  padding: 10px;
+  text-align: center;
+}
+
+td{
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+/*End Table page*/
 
 /*Country Jump page*/
 #our-country .container {
@@ -144,12 +170,12 @@ textarea {
 button {
   padding: 19px 39px 18px 39px;
   color: #FFF;
-  background-color: #c46287;
+  background-color: #7F7F7F;
   font-size: 18px;
   text-align: center;
   font-style: normal;
   border-radius: 4px;
-  border-bottom: 4px solid #7f3f57;
+  border-bottom: 4px solid #E7E6E6;
   margin: 10px 0;
 }
 
@@ -167,7 +193,7 @@ html,body{
     height: 60px;
     position: fixed;
     bottom: 0;
-    background-color: #d7d4db;
+    background-color: #7F7F7F;
     color: #fff;
     text-align: center;
     width: 100%;
@@ -175,6 +201,9 @@ html,body{
 
 
 /*======END OF MAIN PAGE CSS========*/
+
+
+
 
 
 /*========CSS Japan page===========*/
@@ -452,3 +481,106 @@ nav li a{
 footer div a {
 	padding: 6px;
 }
+
+
+
+
+/*Korea page CSS*/
+
+  .k-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  /*main page Navigation*/
+  #k-main-page-nav {
+    background-color: #47A7F5;
+    height: 80px;
+  }
+
+  #k-main-page-nav ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    float: right;
+  }
+
+  #k-main-page-nav li {
+      display: inline-block;
+      margin-left: 30px;
+      padding-top: 10px;
+  }
+
+  #k-main-page-nav li a {
+      display: inline-block;
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 20px;
+      letter-spacing: 2px;
+      font-weight: bold;
+  }
+
+  #k-main-page-nav li a:hover {
+    color: #f6e6f7;
+  }
+
+  /* main Top image*/
+  #k-main-image {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: : 0px;
+    background-position: 10% 40%;
+    border-bottom: 30px solid #47A7F5;
+    width: 100%;
+    height: 500px;
+  }
+ 
+
+  /*where to visit page*/
+  /*What to eat page*/
+
+  #k-our-country .k-container {
+    padding-left: 150px;
+  }
+
+  #k-our-country {
+    padding-bottom: 180px;
+    border-bottom: 5px solid #47A7F5;
+  }
+
+  #k-our-country h1 {
+    text-align: center;
+  }
+
+  #k-our-country img {
+    border-radius: 30px;
+    max-width: 200px;
+    height: auto;
+    opacity: 0.75;
+  }
+
+  #k-our-country .k-box {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /*========footer area=========*/
+
+
+
+  .k-main-page-footer {
+      height: 60px;
+      position: fixed;
+      bottom: 0;
+      background-color: #4083FF;
+      color: #fff;
+      text-align: center;
+      width: 100%;
+  }
+
+
+/*======END OF Korea PAGE CSS========*/
