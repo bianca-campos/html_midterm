@@ -192,6 +192,20 @@ body {
   overflow: hidden;
 }
 
+p {
+	color: #595959;
+	text-align: left;
+}
+
+h1 {
+	color: #26296d;
+}
+
+footer p {
+	color: #fff;
+}
+
+
 /*====Navigation bar=======*/
 nav {
   background-color: #c1223a;
@@ -276,7 +290,7 @@ nav {
 #right {
   float: right;
   width: 40%;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 /*=====Food area==========*/
@@ -331,9 +345,12 @@ footer {
     position: fixed;
     bottom: 0;
     background-color: #c1223a;
-    color: #fff;
-    text-align: center;
     width: 100%;
+}
+
+footer p {
+	color: #fff;
+	text-align: center;
 }
 
 
