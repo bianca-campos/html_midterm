@@ -77,6 +77,11 @@ body {
 }
 
 /*Table page*/
+
+.main_table{
+    margin-right: auto; 
+    margin-left: auto;
+}
 .main_table, th, td{
     font-size:  1.1em;
     border: 1px solid black;
@@ -92,6 +97,8 @@ td{
   padding: 10px;
   text-align: center;
 }
+
+
 
 /*End Table page*/
 
