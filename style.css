@@ -1145,7 +1145,7 @@ footer p {
 
   /*main page Navigation*/
   #br-main-page-nav {
-    background-color: #009c3b;
+    background-color: #ffdf00;
     height: 80px;
   }
 
@@ -1181,7 +1181,7 @@ footer p {
     background: url("images/brazil_back.jpeg");
     background-size: cover;
     background-position: 0% 40%;
-    border-bottom: 30px solid #009c3b;
+    border-bottom: 30px solid #ffdf00;
     width: 100%;
     height: 500px;
   }
@@ -1190,7 +1190,7 @@ footer p {
   /*=====About area=======*/
   #brabout .brcontainer,
   #brculture .brcontainer{
-    border-bottom: 1px solid #009c3b;
+    border-bottom: 1px solid #ffdf00;
     padding-bottom: 50px;
   }
 
@@ -1290,13 +1290,14 @@ footer p {
       height: 60px;
       position: fixed;
       bottom: 0;
-      background-color: #009c3b;
+      background-color: #ffdf00;
       color: #fff;
       text-align: center;
       width: 100%;
   }
 
   /*======END OF Brazil PAGE CSS=====*/
+  
 
 /*===Mexico page=======*/
 body {
