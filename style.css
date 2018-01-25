@@ -68,18 +68,12 @@ body {
 #welcome-page,
 #our-country {
   border-bottom: 1px solid #7F7F7F;
-  padding-bottom: 100px;
-  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 #welcome-page h1 {
 	font-size: 2em;
 	text-align: center;
-}
-
-#welcome-page p {
-  font-size: 1.5em;
-  text-align: center;
 }
 
 /*Table page*/
@@ -114,7 +108,7 @@ td{
 }
 
 #our-country {
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 }
 
 #our-country h1 {
@@ -197,11 +191,8 @@ html,body{
     bottom: 0;
     background-color: #3d3d3d;
     color: #fff;
+    text-align: center;
     width: 100%;
-}
-
-.main-page-footer p {
-  text-align: center;
 }
 
 
@@ -284,8 +275,8 @@ nav {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
-    letter-spacing: 3px;
-    font-weight: 400;
+    letter-spacing: 4px;
+    font-weight: bold;
 }
 
 #main-nav li a:hover {
@@ -372,15 +363,15 @@ html,body{
      min-height: 100%;
 }
 
-.footer-japan {
+footer {
     height: 60px;
     position: fixed;
     bottom: 0;
-    background-color: #c1223a;
+    background-color: #3d3d3d;
     width: 100%;
 }
 
-.footer-japan p {
+footer p {
 	color: #fff;
 	text-align: center;
 }
@@ -652,4 +643,165 @@ html,body{
   }
 
   /*======END OF Brazil PAGE CSS=====*/
->>>>>>> 807f0a1f16aea3223237bcac33019cb86bf0d4e0
+<<<<<<< HEAD
+
+/*===Mexico page=======*/
+body {
+  font-family: "Times New Roman", Georgia, Serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/*====Navigation bar=======*/
+#mexi-nav{
+  background-color: green;
+  height: 80px;
+}
+
+.logo {
+  display: inline-block;
+  float: left;
+}
+
+.logo a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  letter-spacing: 5px;
+  font-weight: 600;
+}
+
+#mexi-nav ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  float: right;
+}
+
+#mexi-nav li {
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+#mexi-nav li a {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+#mexi-nav li a:hover {
+  color: red;
+}
+
+#m-top {
+  background: url("images/Bandera.jpg");
+  background-size: cover;
+  background-position: 10% 40%;
+  border-bottom: 30px solid green;
+  width: 100%;
+  height: 500px;
+}
+
+/*=====About area=======*/
+#about-mexico .container,
+#culture-mexico .container{
+  border-bottom: 1px solid #c1223a;
+  padding-bottom: 50px;
+}
+
+#about-mexico h1 {
+  text-align: center;
+  padding: 50px;
+  font-size: 3em;
+  letter-spacing: 2px;
+
+}
+
+#left-mexico {
+  float: left;
+  width: 40%;
+  padding-right: 30px;
+}
+
+
+/*=======Culture area=========*/
+
+#right-mexico {
+  float: right;
+  width: 40%;
+  padding-left: 30px;
+}
+
+/*=====Food area==========*/
+
+#food-mexico {
+  padding-bottom: 150px;
+}
+
+#food-mexico h1 {
+  text-align: center;
+}
+
+
+#food-mexico img {
+  border-radius: 30px;
+  max-width: 300px;
+  height: 200px;
+  opacity: 1;
+
+}
+
+#food-mexico .box {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+
+}
+
+
+/*layout clearfix*/
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/*========footer area=========*/
+html,body{
+     height: 100%;
+}
+#wrap {
+     width: 100%;
+     position: relative;
+     min-height: 100%;
+}
+
+#mex-footer {
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+/*====end of the mexico page=======*/
+=======
+>>>>>>> 120bc7c24a68f2aa5a2d70cf9d5446ee23be1b2f
