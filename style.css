@@ -68,12 +68,18 @@ body {
 #welcome-page,
 #our-country {
   border-bottom: 1px solid #7F7F7F;
-  padding-bottom: 30px;
+  padding-bottom: 100px;
+  padding-top: 30px;
 }
 
 #welcome-page h1 {
 	font-size: 2em;
 	text-align: center;
+}
+
+#welcome-page p {
+  font-size: 1.5em;
+  text-align: center;
 }
 
 /*Table page*/
@@ -108,7 +114,7 @@ td{
 }
 
 #our-country {
-  padding-bottom: 150px;
+  padding-bottom: 100px;
 }
 
 #our-country h1 {
