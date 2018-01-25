@@ -61,7 +61,7 @@ body {
   background-position: 10% 40%;
   border-bottom: 30px solid #3d3d3d;
   width: 100%;
-  height: 500px;
+  height: 520px;
 }
 
 /*Welcome page*/
@@ -79,7 +79,7 @@ body {
 /*Table page*/
 
 .main_table{
-    margin-right: auto; 
+    margin-right: auto;
     margin-left: auto;
 }
 .main_table, th, td{
@@ -222,8 +222,11 @@ p {
 	text-align: left;
 }
 
-h1 {
-	color: #26296d;
+#food h1,
+#culture h1,
+#about h1 {
+  text-align: center;
+  color: #153b77;
 }
 
 footer p {
@@ -277,7 +280,7 @@ nav {
 }
 
 #main-nav li a:hover {
-  color: #f6e6f7;
+  color: #26296d;
 }
 
 #main-top {
@@ -286,7 +289,7 @@ nav {
   background-position: 10% 40%;
   border-bottom: 30px solid #c1223a;
   width: 100%;
-  height: 500px;
+  height: 520px;
 }
 
 /*=====About area=======*/
@@ -326,11 +329,6 @@ nav {
 #food {
   padding-bottom: 150px;
 }
-
-#food h1 {
-  text-align: center;
-}
-
 
 #food img {
   border-radius: 30px;
@@ -431,7 +429,7 @@ footer p {
     width: 100%;
     height: 500px;
   }
- 
+
 
   /*where to visit page*/
   /*What to eat page*/
@@ -526,7 +524,7 @@ footer p {
 
   /* main Top image*/
   #br-main-image {
-    background: url("../project_midterm/images/brazil_back.jpeg");
+    background: url("images/brazil_back.jpeg");
     background-size: cover;
     background-position: 0% 40%;
     border-bottom: 30px solid #009c3b;
@@ -535,7 +533,7 @@ footer p {
   }
 
 
-  /*=====About area=======*/ 
+  /*=====About area=======*/
   #brabout .brcontainer,
   #brculture .brcontainer{
     border-bottom: 1px solid #009c3b;
@@ -645,4 +643,3 @@ footer p {
   }
 
   /*======END OF Brazil PAGE CSS=====*/
-
