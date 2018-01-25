@@ -517,7 +517,7 @@ footer p {
 
   /*main page Navigation*/
   #br-main-page-nav {
-    background-color: #009c3b;
+    background-color: #ffdf00;
     height: 80px;
   }
 
@@ -545,7 +545,7 @@ footer p {
   }
 
   #br-main-page-nav li a:hover {
-    color: #E2EFD9;
+    color: #2ED050;
   }
 
   /* main Top image*/
@@ -553,7 +553,7 @@ footer p {
     background: url("images/brazil_back.jpeg");
     background-size: cover;
     background-position: 0% 40%;
-    border-bottom: 30px solid #009c3b;
+    border-bottom: 30px solid #ffdf00;
     width: 100%;
     height: 500px;
   }
@@ -562,7 +562,7 @@ footer p {
   /*=====About area=======*/
   #brabout .brcontainer,
   #brculture .brcontainer{
-    border-bottom: 1px solid #009c3b;
+    border-bottom: 1px solid #ffdf00;
     padding-bottom: 50px;
   }
 
@@ -582,12 +582,12 @@ footer p {
 
   /*=======Culture area=========*/
 
-  #brright {
+/*  #brright {
     float: right;
     width: 30%;
     height: 30%;
     padding-left: 20px;
-  }
+  }*/
 
   /*=====Food area==========*/
   #brfood .brcontainer {
@@ -606,7 +606,7 @@ footer p {
   #brfood img {
     border-radius: 30px;
     max-width: 300px;
-    height: auto;
+    height: 220px;
   }
 
   #brfood .brbox {
@@ -627,11 +627,10 @@ footer p {
   /*=====Tourism area==========*/
   #brtourism .brcontainer {
     padding-left: 150px;
+    border-bottom: 1px solid #ffdf00;
+    padding-bottom: 50px;
   }
 
-  #brtourism {
-    padding-bottom: 150px;
-  }
 
   #brtourism h1 {
     text-align: center;
@@ -662,11 +661,14 @@ footer p {
       height: 60px;
       position: fixed;
       bottom: 0;
-      background-color: #009c3b;
-      color: #fff;
+      background-color: #ffdf00;
+      
       text-align: center;
       width: 100%;
   }
+
+  #brfoot{
+      color: #009c3b;}
 
   /*======END OF Brazil PAGE CSS=====*/
 
