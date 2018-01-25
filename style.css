@@ -56,12 +56,12 @@ body {
 
 /* main Top image*/
 #main-image {
-  background: url("../project_midterm/images/global_main.png");
+  background: url("images/main-map.jpg");
   background-size: cover;
   background-position: 10% 40%;
   border-bottom: 30px solid #7F7F7F;
   width: 100%;
-  height: 500px;
+  height: 520px;
 }
 
 /*Welcome page*/
@@ -79,7 +79,7 @@ body {
 /*Table page*/
 
 .main_table{
-    margin-right: auto; 
+    margin-right: auto;
     margin-left: auto;
 }
 .main_table, th, td{
@@ -226,8 +226,11 @@ p {
 	text-align: left;
 }
 
-h1 {
-	color: #26296d;
+#food h1,
+#culture h1,
+#about h1 {
+  text-align: center;
+  color: #153b77;
 }
 
 footer p {
@@ -281,7 +284,7 @@ nav {
 }
 
 #main-nav li a:hover {
-  color: #f6e6f7;
+  color: #26296d;
 }
 
 #main-top {
@@ -290,7 +293,7 @@ nav {
   background-position: 10% 40%;
   border-bottom: 30px solid #c1223a;
   width: 100%;
-  height: 500px;
+  height: 520px;
 }
 
 /*=====About area=======*/
@@ -330,11 +333,6 @@ nav {
 #food {
   padding-bottom: 150px;
 }
-
-#food h1 {
-  text-align: center;
-}
-
 
 #food img {
   border-radius: 30px;
@@ -536,7 +534,7 @@ footer div a {
     width: 100%;
     height: 500px;
   }
- 
+
 
   /*where to visit page*/
   /*What to eat page*/
