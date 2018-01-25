@@ -328,6 +328,7 @@ nav {
   float: right;
   width: 40%;
   padding-left: 20px;
+  padding-top: 30px;
 }
 
 /*=====Food area==========*/
@@ -1297,7 +1298,7 @@ footer p {
   }
 
   /*======END OF Brazil PAGE CSS=====*/
-  
+
 
 /*===Mexico page=======*/
 body {
