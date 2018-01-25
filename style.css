@@ -442,7 +442,7 @@ html,body{
   }
 
   #k-our-country {
-    padding-bottom: 180px;
+    padding-bottom: 80px;
     border-bottom: 5px solid #47A7F5;
   }
 
@@ -454,7 +454,7 @@ html,body{
     border-radius: 30px;
     max-width: 200px;
     height: 150px;
-    opacity: 0.75;
+    opacity: 1;
   }
 
 
