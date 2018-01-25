@@ -653,3 +653,810 @@ footer p {
 
   /*======END OF Brazil PAGE CSS=====*/
 >>>>>>> 807f0a1f16aea3223237bcac33019cb86bf0d4e0
+/*  Project Midterm
+	Names: 	Bianca
+			Jintak
+			Javier
+			Nagisa */
+			/*for whole page*/
+
+
+/*Main page CSS*/
+
+body {
+  font-family: "Times New Roman", Georgia, Serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/*main page Navigation*/
+#main-page-nav {
+  background-color: #3d3d3d;
+  height: 80px;
+}
+
+#main-page-nav ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  float: right;
+}
+
+#main-page-nav li {
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+#main-page-nav li a {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+#main-page-nav li a:hover {
+  color: #f6e6f7;
+}
+
+/* main Top image*/
+#main-image {
+  background: url("./images/main-map.jpg");
+  background-size: cover;
+  background-position: 10% 40%;
+  border-bottom: 30px solid #3d3d3d;
+  width: 100%;
+  height: 520px;
+}
+
+/*Welcome page*/
+#welcome-page,
+#our-country {
+  border-bottom: 1px solid #7F7F7F;
+  padding-bottom: 30px;
+}
+
+#welcome-page h1 {
+	font-size: 2em;
+	text-align: center;
+}
+
+/*Table page*/
+
+.main_table{
+    margin-right: auto;
+    margin-left: auto;
+}
+.main_table, th, td{
+    font-size:  1.1em;
+    border: 1px solid black;
+
+}
+
+th{
+  padding: 10px;
+  text-align: center;
+}
+
+td{
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+/*End Table page*/
+
+/*Country Jump page*/
+#our-country .container {
+	padding-left: 150px;
+}
+
+#our-country {
+  padding-bottom: 150px;
+}
+
+#our-country h1 {
+  text-align: center;
+}
+
+#our-country img {
+  border-radius: 30px;
+  max-width: 200px;
+  height: 150px;
+  opacity: 0.75;
+}
+
+#our-country .box {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  text-align: center;
+}
+
+/*layout clearfix*/
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*========Contacf Forms======*/
+#contact h1,p {
+  text-align: center;
+}
+
+#contact {
+  padding-bottom: 160px;
+}
+
+form {
+   max-width: 600px;
+   margin: 0 auto;
+ }
+
+ input,textarea {
+     padding: 1em;
+     border-radius: 8px;
+     border: 1px solid #cfcfd1;
+     /*display: block;*/
+     width: 100%;
+     margin-top: 1em;
+ }
+
+textarea {
+  height: 100px;
+}
+
+.button_wrapper {
+  text-align: center;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #3d3d3d;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 4px;
+  border-bottom: 4px solid #E7E6E6;
+  margin: 10px 0;
+}
+
+/*========footer area=========*/
+html,body{
+     height: 100%;
+}
+
+
+.main-page-footer {
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    background-color: #3d3d3d;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+
+/*======END OF MAIN PAGE CSS========*/
+
+
+
+
+
+/*========CSS Japan page===========*/
+
+body {
+  font-family: "Times New Roman", Georgia, Serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+p {
+	color: #595959;
+	text-align: left;
+}
+
+#food h1,
+#culture h1,
+#about h1 {
+  text-align: center;
+  color: #153b77;
+}
+
+footer p {
+	color: #fff;
+}
+
+
+/*====Navigation bar=======*/
+nav {
+  background-color: #c1223a;
+  height: 80px;
+}
+
+.logo {
+  display: inline-block;
+  float: left;
+}
+
+.logo a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  letter-spacing: 5px;
+  font-weight: 600;
+}
+
+#main-nav {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  float: right;
+}
+
+#main-nav li {
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+#main-nav li a {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+#main-nav li a:hover {
+  color: #26296d;
+}
+
+#main-top {
+  background: url("images/main.jpg");
+  background-size: cover;
+  background-position: 10% 40%;
+  border-bottom: 30px solid #c1223a;
+  width: 100%;
+  height: 520px;
+}
+
+/*=====About area=======*/
+#about .container,
+#culture .container{
+  border-bottom: 1px solid #c1223a;
+  padding-bottom: 50px;
+}
+
+#about h1 {
+  text-align: center;
+  padding: 50px;
+  font-size: 3em;
+  letter-spacing: 2px;
+}
+
+#left {
+  float: left;
+  width: 40%;
+  padding-right: 10px;
+}
+
+
+/*=======Culture area=========*/
+
+#right {
+  float: right;
+  width: 40%;
+  padding-left: 20px;
+}
+
+/*=====Food area==========*/
+#food .container {
+	padding-left: 90px;
+}
+
+#food {
+  padding-bottom: 150px;
+}
+
+#food img {
+  border-radius: 30px;
+  max-width: 300px;
+  height: auto;
+  opacity: 0.75;
+}
+
+#food .box {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+}
+
+
+/*layout clearfix*/
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/*========footer area=========*/
+html,body{
+     height: 100%;
+}
+#wrap {
+     width: 100%;
+     position: relative;
+     min-height: 100%;
+}
+
+footer {
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    background-color: #3d3d3d;
+    width: 100%;
+}
+
+footer p {
+	color: #fff;
+	text-align: center;
+}
+
+
+
+/*Korea page CSS*/
+
+  .k-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  /*main page Navigation*/
+  #k-main-page-nav {
+    background-color: #47A7F5;
+    height: 80px;
+  }
+
+  #k-main-page-nav ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    float: right;
+  }
+
+  #k-main-page-nav li {
+      display: inline-block;
+      margin-left: 30px;
+      padding-top: 10px;
+  }
+
+  #k-main-page-nav li a {
+      display: inline-block;
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 20px;
+      letter-spacing: 2px;
+      font-weight: bold;
+  }
+
+  #k-main-page-nav li a:hover {
+    color: #f6e6f7;
+  }
+
+  /* main Top image*/
+  #k-main-image {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    background-position: 10% 40%;
+    border-bottom: 30px solid #47A7F5;
+    width: 100%;
+    height: 500px;
+  }
+
+
+  /*where to visit page*/
+  /*What to eat page*/
+
+  #k-our-country .k-container {
+    padding-left: 150px;
+  }
+
+  #k-our-country {
+    padding-bottom: 80px;
+    border-bottom: 5px solid #47A7F5;
+  }
+
+  #k-our-country h1 {
+    text-align: center;
+  }
+
+  #k-our-country img {
+    border-radius: 30px;
+    max-width: 200px;
+    height: 150px;
+    opacity: 1;
+  }
+
+
+  #k-our-country .k-box {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /*========footer area=========*/
+
+
+
+  .k-main-page-footer {
+      height: 60px;
+      position: fixed;
+      bottom: 0;
+      background-color: #4083FF;
+      color: #fff;
+      text-align: center;
+      width: 100%;
+  }
+
+
+/*======END OF Korea PAGE CSS========*/
+
+
+
+/*========Brazil Page CSS============*/
+
+  .brcontainer {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  /*main page Navigation*/
+  #br-main-page-nav {
+    background-color: #009c3b;
+    height: 80px;
+  }
+
+  #br-main-page-nav ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    float: right;
+  }
+
+  #br-main-page-nav li {
+      display: inline-block;
+      margin-left: 30px;
+      padding-top: 10px;
+  }
+
+  #br-main-page-nav li a {
+      display: inline-block;
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 20px;
+      letter-spacing: 2px;
+      font-weight: bold;
+  }
+
+  #br-main-page-nav li a:hover {
+    color: #E2EFD9;
+  }
+
+  /* main Top image*/
+  #br-main-image {
+    background: url("images/brazil_back.jpeg");
+    background-size: cover;
+    background-position: 0% 40%;
+    border-bottom: 30px solid #009c3b;
+    width: 100%;
+    height: 500px;
+  }
+
+
+  /*=====About area=======*/
+  #brabout .brcontainer,
+  #brculture .brcontainer{
+    border-bottom: 1px solid #009c3b;
+    padding-bottom: 50px;
+  }
+
+  #brabout h1 {
+    text-align: center;
+    padding: 50px;
+    font-size: 3em;
+    letter-spacing: 2px;
+  }
+
+  #brleft {
+    float: left;
+    width: 30%;
+    height: 30%;
+    padding-right: 10px;
+  }
+
+  /*=======Culture area=========*/
+
+  #brright {
+    float: right;
+    width: 30%;
+    height: 30%;
+    padding-left: 20px;
+  }
+
+  /*=====Food area==========*/
+  #brfood .brcontainer {
+    padding-left: 90px;
+  }
+
+  #brfood {
+    padding-bottom: 150px;
+  }
+
+  #brfood h1 {
+    text-align: center;
+  }
+
+
+  #brfood img {
+    border-radius: 30px;
+    max-width: 300px;
+    height: auto;
+  }
+
+  #brfood .brbox {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /*layout clearfix*/
+  .brclearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+  }
+
+
+  /*=====Tourism area==========*/
+  #brtourism .brcontainer {
+    padding-left: 150px;
+  }
+
+  #brtourism {
+    padding-bottom: 150px;
+  }
+
+  #brtourism h1 {
+    text-align: center;
+  }
+
+  #brtourism img {
+    border-radius: 30px;
+    width: 200px;
+    height: 120px;
+  }
+
+  #brtourism .brbox {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /*layout clearfix*/
+  .brclearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+  }
+
+    /*========footer area=========*/
+  .br-main-page-footer {
+      height: 60px;
+      position: fixed;
+      bottom: 0;
+      background-color: #009c3b;
+      color: #fff;
+      text-align: center;
+      width: 100%;
+  }
+
+  /*======END OF Brazil PAGE CSS=====*/
+<<<<<<< HEAD
+
+/*===Mexico page=======*/
+body {
+  font-family: "Times New Roman", Georgia, Serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/*====Navigation bar=======*/
+#mexi-nav{
+  background-color: green;
+  height: 80px;
+}
+
+.logo {
+  display: inline-block;
+  float: left;
+}
+
+.logo a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  letter-spacing: 5px;
+  font-weight: 600;
+}
+
+#mexi-nav ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  float: right;
+}
+
+#mexi-nav li {
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+#mexi-nav li a {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+#mexi-nav li a:hover {
+  color: red;
+}
+
+#m-top {
+  background: url("images/Bandera.jpg");
+  background-size: cover;
+  background-position: 10% 40%;
+  border-bottom: 30px solid green;
+  width: 100%;
+  height: 500px;
+}
+
+/*=====About area=======*/
+#about-mexico .container,
+#culture-mexico .container{
+  border-bottom: 1px solid #c1223a;
+  padding-bottom: 50px;
+}
+
+#about-mexico h1 {
+  text-align: center;
+  padding: 50px;
+  font-size: 3em;
+  letter-spacing: 2px;
+
+}
+
+#left-mexico {
+  float: left;
+  width: 40%;
+  padding-right: 30px;
+}
+
+
+/*=======Culture area=========*/
+
+#right-mexico {
+  float: right;
+  width: 40%;
+  padding-left: 30px;
+}
+
+/*=====Food area==========*/
+
+#food-mexico {
+  padding-bottom: 150px;
+}
+
+#food-mexico h1 {
+  text-align: center;
+}
+
+
+#food-mexico img {
+  border-radius: 30px;
+  max-width: 300px;
+  height: 200px;
+  opacity: 1;
+
+}
+
+#food-mexico .box {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+
+}
+
+
+/*layout clearfix*/
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/*========footer area=========*/
+html,body{
+     height: 100%;
+}
+#wrap {
+     width: 100%;
+     position: relative;
+     min-height: 100%;
+}
+
+#mex-footer {
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+/*====end of the mexico page=======*/
+=======
+>>>>>>> 1f393c32a77d3049ffcd91e157ce4615ee30f2ff
