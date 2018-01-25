@@ -23,7 +23,7 @@ body {
 
 /*main page Navigation*/
 #main-page-nav {
-  background-color: #7F7F7F;
+  background-color: #3d3d3d;
   height: 80px;
 }
 
@@ -56,10 +56,10 @@ body {
 
 /* main Top image*/
 #main-image {
-  background: url("images/main-map.jpg");
+  background: url("./images/main-map.jpg");
   background-size: cover;
   background-position: 10% 40%;
-  border-bottom: 30px solid #7F7F7F;
+  border-bottom: 30px solid #3d3d3d;
   width: 100%;
   height: 520px;
 }
@@ -118,7 +118,7 @@ td{
 #our-country img {
   border-radius: 30px;
   max-width: 200px;
-  height: auto;
+  height: 150px;
   opacity: 0.75;
 }
 
@@ -170,7 +170,7 @@ textarea {
 button {
   padding: 19px 39px 18px 39px;
   color: #FFF;
-  background-color: #7F7F7F;
+  background-color: #3d3d3d;
   font-size: 18px;
   text-align: center;
   font-style: normal;
@@ -183,17 +183,13 @@ button {
 html,body{
      height: 100%;
 }
-#wrap {
-     width: 100%;
-     position: relative;
-     min-height: 100%;
-}
+
 
 .main-page-footer {
     height: 60px;
     position: fixed;
     bottom: 0;
-    background-color: #7F7F7F;
+    background-color: #3d3d3d;
     color: #fff;
     text-align: center;
     width: 100%;
@@ -371,7 +367,7 @@ footer {
     height: 60px;
     position: fixed;
     bottom: 0;
-    background-color: #c1223a;
+    background-color: #3d3d3d;
     width: 100%;
 }
 
@@ -379,107 +375,6 @@ footer p {
 	color: #fff;
 	text-align: center;
 }
-
-
-
-/*CSS Brazil Page*/
-
-
-.brheader{
-	background-color: #FFE11F;
-	color: #16B83E;
-    padding-right:20px;
-    padding-left:20px;
-}
-
-#brcontainer{
-	display: table;
-    table-layout: fixed;
-    width: 100%;
-}
-
-#container:before, #brmiddle, #brright {
-    display: table-cell;
-}
-
-#brmiddle{
-    width: 50%;
-    text-align: center;
-    font-size: 3em;
-    font-style: italic;
-    font-weight: bold;
-}
-#brright{
-    float: right;
-}
-
-.brbody{
-	background-image: url("br_back.jpeg");
-	margin-left: auto;
-	margin-right: auto;
-	background-color: #F0F0F0;
-	font-family: Arial;
-	font-size: 1em;
-	padding: 5px;
-	padding-left: 20px;
-	padding-right: 20px;
-
-}
-
-.brnav{
-	background-color: #1651B8;
-	padding: 5px;
-	margin-top: 2px;
-	border-color: green;
-	border-style: solid;
-
-}
-
-nav li a{
-	color: #FFE11F;
-}
-
-.brli{
-	display: inline;
-	font-size: 1.3em;
-	font-variant: small-caps;
-	margin-left: 15px;
-	margin-right: 15px;
-}
-
-
-.brsection{
-	background-color: #BFBFBF;
-	margin-top: 10px;
-	padding: 3px;
-}
-
-#brarticle{
-	background-color: white;
-	margin-top: 15px;
-	padding: 10px 15px;
-}
-
-#brmain{
-	width: 100%;
-}
-
-#brdiv1{
-	margin-top: 15px;
-	margin-bottom: 15px;
-	float: left;
-}
-
-#brdiv2{
-	margin-top: 15px;
-	margin-bottom: 15px;
-	float: right;
-}
-
-footer div a {
-	padding: 6px;
-}
-
 
 
 
@@ -528,7 +423,7 @@ footer div a {
   #k-main-image {
     text-align: center;
     padding-top: 50px;
-    padding-bottom: : 0px;
+    padding-bottom: 0px;
     background-position: 10% 40%;
     border-bottom: 30px solid #47A7F5;
     width: 100%;
@@ -555,9 +450,10 @@ footer div a {
   #k-our-country img {
     border-radius: 30px;
     max-width: 200px;
-    height: auto;
+    height: 150px;
     opacity: 0.75;
   }
+
 
   #k-our-country .k-box {
     float: left;
@@ -582,3 +478,168 @@ footer div a {
 
 
 /*======END OF Korea PAGE CSS========*/
+
+
+
+/*========Brazil Page CSS============*/
+
+  .brcontainer {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  /*main page Navigation*/
+  #br-main-page-nav {
+    background-color: #009c3b;
+    height: 80px;
+  }
+
+  #br-main-page-nav ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    float: right;
+  }
+
+  #br-main-page-nav li {
+      display: inline-block;
+      margin-left: 30px;
+      padding-top: 10px;
+  }
+
+  #br-main-page-nav li a {
+      display: inline-block;
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 20px;
+      letter-spacing: 2px;
+      font-weight: bold;
+  }
+
+  #br-main-page-nav li a:hover {
+    color: #E2EFD9;
+  }
+
+  /* main Top image*/
+  #br-main-image {
+    background: url("../project_midterm/images/brazil_back.jpeg");
+    background-size: cover;
+    background-position: 0% 40%;
+    border-bottom: 30px solid #009c3b;
+    width: 100%;
+    height: 500px;
+  }
+
+
+  /*=====About area=======*/
+  #brabout .brcontainer,
+  #brculture .brcontainer{
+    border-bottom: 1px solid #009c3b;
+    padding-bottom: 50px;
+  }
+
+  #brabout h1 {
+    text-align: center;
+    padding: 50px;
+    font-size: 3em;
+    letter-spacing: 2px;
+  }
+
+  #brleft {
+    float: left;
+    width: 30%;
+    height: 30%;
+    padding-right: 10px;
+  }
+
+  /*=======Culture area=========*/
+
+  #brright {
+    float: right;
+    width: 30%;
+    height: 30%;
+    padding-left: 20px;
+  }
+
+  /*=====Food area==========*/
+  #brfood .brcontainer {
+    padding-left: 90px;
+  }
+
+  #brfood {
+    padding-bottom: 150px;
+  }
+
+  #brfood h1 {
+    text-align: center;
+  }
+
+
+  #brfood img {
+    border-radius: 30px;
+    max-width: 300px;
+    height: auto;
+  }
+
+  #brfood .brbox {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /*layout clearfix*/
+  .brclearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+  }
+
+
+  /*=====Tourism area==========*/
+  #brtourism .brcontainer {
+    padding-left: 150px;
+  }
+
+  #brtourism {
+    padding-bottom: 150px;
+  }
+
+  #brtourism h1 {
+    text-align: center;
+  }
+
+  #brtourism img {
+    border-radius: 30px;
+    width: 200px;
+    height: 120px;
+  }
+
+  #brtourism .brbox {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /*layout clearfix*/
+  .brclearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+  }
+
+    /*========footer area=========*/
+  .br-main-page-footer {
+      height: 60px;
+      position: fixed;
+      bottom: 0;
+      background-color: #009c3b;
+      color: #fff;
+      text-align: center;
+      width: 100%;
+  }
+
+  /*======END OF Brazil PAGE CSS=====*/
