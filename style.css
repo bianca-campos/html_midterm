@@ -444,20 +444,20 @@ footer p {
   /*where to visit page*/
   /*What to eat page*/
 
-  #k-our-country .k-container {
+  .k-our-country .k-container {
     padding-left: 150px;
   }
 
-  #k-our-country {
+  .k-our-country {
     padding-bottom: 80px;
     border-bottom: 5px solid #47A7F5;
   }
 
-  #k-our-country h1 {
+  .k-our-country h1 {
     text-align: center;
   }
 
-  #k-our-country img {
+  .k-our-country img {
     border-radius: 30px;
     max-width: 200px;
     height: 150px;
@@ -465,7 +465,7 @@ footer p {
   }
 
 
-  #k-our-country .k-box {
+  .k-our-country .k-box {
     float: left;
     width: 20%;
     padding: 10px;
